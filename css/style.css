@@ -1,10 +1,9 @@
-@import url(https://fonts.googleapis.com/css?family=Yellowtail);
-@import url(https://fonts.googleapis.com/css?family=Yellowtail|Open+Sans+Condensed:300);
-@import url(https://fonts.googleapis.com/css?family=Yellowtail|Open+Sans+Condensed:300|Patrick+Hand);
+@import url(https://fonts.googleapis.com/css?family=Yellowtail|Open+Sans+Condensed:300|Patrick+Hand|Oswald|Abel|Slabo+27px);
 
 body {
   width: 901px;
   margin: 0 auto;
+
 }
 
 header {
@@ -12,6 +11,7 @@ header {
   padding-bottom: 20px;
   height: 60px;
 }
+
 #logo {
   text-align: left;
   position: relative;
@@ -41,8 +41,26 @@ header {
   margin-top: -30px;
   }
 
-#ingredients {
+.ingredients {
   font-family: 'Patrick Hand', cursive;
+  font-size: 20px;
+  background-image: url(../img/list-bg.png);
+  padding-bottom: 35px;
+  padding-top: 10px;
+  margin-bottom: 15px;
+  box-shadow: 0px 6px 4px 0px grey;
+  color: dimgrey;
+}
+ul {
+  list-style-type: square;
+}
+#lineleft {
+  text-align: left;
+  margin-left: 50px;
+}
+#lineright{
+  margin-left: 300px;
+  margin-top: -180px;
 }
 
 #social {
@@ -53,23 +71,40 @@ header {
 #title {
   margin-bottom: 60px;
 }
-#title h1 {
-  margin-bottom: -15px;
-}
-#print {
-  text-align: right;
-  margin-top: -100px;
-  font-size: 11px;
-}
-
-#print img{
-  margin-right: 40px;
-  /*margin-top: -30px;*/
-  margin-bottom: -25px;
-}
-
 #main {
   margin-top: 10px;
   border-top: 4px dotted grey;
   border-bottom: 4px dotted grey;
+}
+#main p {
+  text-indent: 25px;
+  font-family: 'Slabo 27px', serif;
+  font-size: 17px;
+  color: dimgrey;
+}
+#title h1 {
+  margin-bottom: -15px;
+  font-family: 'Oswald', sans-serif;
+}
+#title p {
+  font-family: 'Abel', sans-serif;
+  color: #A9A9A9;
+  margin-left: -23px;
+}
+#print {
+  text-align: right;
+  margin-top: -100px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 8px;
+  color: #A9A9A9;
+}
+#print img{
+  margin-right: 40px;
+  margin-bottom: -25px;
+}
+
+button {
+  background-color: #9f5050;
+  color: white;
+  padding: 10px 20px 10px 20px;
 }
