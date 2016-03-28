@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Yellowtail);
+@import url(https://fonts.googleapis.com/css?family=Yellowtail|Open+Sans+Condensed:300);
+@import url(https://fonts.googleapis.com/css?family=Yellowtail|Open+Sans+Condensed:300|Patrick+Hand);
+
+body {
+  width: 901px;
+  margin: 0 auto;
+}
+
+header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 60px;
+}
+#logo {
+  text-align: left;
+  position: relative;
+}
+#logo img {
+  position: absolute;
+  margin-top: 7px;
+}
+#logotext {
+  width: 150px;
+  align-self: center;
+  margin-left: 45px;
+}
+
+#rss {
+  margin-left: 15px;
+}
+#logotext h1{
+  font-family: 'Yellowtail', cursive;
+  padding: 0px;
+  margin-top: 22px;
+}
+#logotext p{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 11px;
+  padding: 0px;
+  margin-top: -30px;
+  }
+
+#ingredients {
+  font-family: 'Patrick Hand', cursive;
+}
+
+#social {
+  text-align: right;
+  margin-top: -50px;
+}
+
+#title {
+  margin-bottom: 60px;
+}
+#title h1 {
+  margin-bottom: -15px;
+}
+#print {
+  text-align: right;
+  margin-top: -100px;
+  font-size: 11px;
+}
+
+#print img{
+  margin-right: 40px;
+  /*margin-top: -30px;*/
+  margin-bottom: -25px;
+}
+
+#main {
+  margin-top: 10px;
+  border-top: 4px dotted grey;
+  border-bottom: 4px dotted grey;
+}
