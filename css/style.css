@@ -1,0 +1,163 @@
+@import url(https://fonts.googleapis.com/css?family=Yellowtail|Open+Sans+Condensed:300|Patrick+Hand|Oswald|Abel|Slabo+27px);
+
+body {
+  width: 901px;
+  margin: 0 auto;
+}
+
+/*margin-top: 32px;
+height: 13px;
+width: 100%;
+background-image:url(../img/border-img.png);
+background-repeat: repeat-x;*/
+
+
+header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 60px;
+}
+
+#logo {
+  text-align: left;
+  position: relative;
+}
+#logo img {
+  position: absolute;
+  margin-top: 7px;
+}
+#logotext {
+  width: 150px;
+  align-self: center;
+  margin-left: 45px;
+}
+
+#rss {
+  margin-left: 15px;
+}
+#logotext h1{
+  font-family: 'Yellowtail', cursive;
+  padding: 0px;
+  margin-top: 22px;
+}
+#logotext p{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 11px;
+  padding: 0px;
+  margin-top: -30px;
+  }
+
+.ingredients {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 20px;
+  background-image: url(../img/list-bg.png);
+  padding-bottom: 35px;
+  padding-top: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0px 6px 4px 0px grey;
+  color: dimgrey;
+}
+
+#lineleft {
+  text-align: left;
+  margin-left: 50px;
+}
+#lineright{
+  margin-left: 300px;
+  margin-top: -180px;
+}
+
+#social {
+  text-align: right;
+  margin-top: -50px;
+}
+
+#title {
+  margin-bottom: 60px;
+}
+#main {
+  margin-top: 10px;
+  /*border-top: 5px dotted grey;
+  border-bottom: 5px dotted grey;*/
+  border-width: 12px 0px 12px 0px;
+  border-image: url(../img/border-img.png) 12 0 12 0 repeat;
+  /*border-right: none;
+  border-left: none;*/
+}
+#main p {
+  text-indent: 25px;
+  font-family: 'Slabo 27px', serif;
+  font-size: 17px;
+  color: dimgrey;
+}
+#title h1 {
+  margin-bottom: -15px;
+  font-family: 'Oswald', sans-serif;
+}
+#title p {
+  font-family: 'Abel', sans-serif;
+  color: #A9A9A9;
+  margin-left: -23px;
+}
+#print p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 11px;
+  color: #A9A9A9;
+}
+#print {
+  margin-top: -100px;
+  text-align: right;
+}
+
+#print img{
+  margin-right: 30px;
+  margin-bottom: -28px;
+}
+
+button {
+  background-color: #9f5050;
+  color: white;
+  padding: 10px 20px 10px 20px;
+}
+
+#vanessaimg {
+  position: absolute;
+  margin-top: -90px;
+}
+
+#vanessatext {
+  width: 550px;
+  align-self: center;
+  margin-left: 100px;
+  color: dimgrey;
+  font-family: 'Slabo 27px', serif;
+
+}
+#vanessatext h1 {
+  font-size: 20px;
+}
+
+#vanessatext p {
+  font-size: 16px;
+}
+
+#buttonbox {
+  margin-left: 700px;
+  width: 200px;
+  align-self: center;
+  margin-top: -80px;
+  font-family: 'Oswald', sans-serif;
+}
+
+footer {
+  text-align: center;
+  margin-top: 100px;
+  color: grey;
+  font-size: 12px;
+  border-top: 3px solid lightgrey;
+}
+
+footer img {
+  border: 10px solid white;
+  margin-top: -28px;
+}
