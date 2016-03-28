@@ -3,7 +3,6 @@
 body {
   width: 901px;
   margin: 0 auto;
-
 }
 
 header {
@@ -51,8 +50,8 @@ header {
   box-shadow: 0px 6px 4px 0px grey;
   color: dimgrey;
 }
-ul {
-  list-style-type: square;
+ul {list-style-image: url('http://bit.ly/qunMkL');
+    list-style-position: inside;
 }
 #lineleft {
   text-align: left;
@@ -93,12 +92,14 @@ ul {
   color: #A9A9A9;
   margin-left: -23px;
 }
-#print {
-  text-align: right;
-  margin-top: -100px;
+#print p {
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 8px;
+  font-size: 11px;
   color: #A9A9A9;
+}
+#print {
+  margin-top: -100px;
+  text-align: right;
 }
 #print img{
   margin-right: 40px;
@@ -120,13 +121,16 @@ button {
   width: 550px;
   align-self: center;
   margin-left: 100px;
+  color: dimgrey;
+  font-family: 'Slabo 27px', serif;
+
 }
 #vanessatext h1 {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 #vanessatext p {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 #buttonbox {
@@ -134,10 +138,12 @@ button {
   width: 200px;
   align-self: center;
   margin-top: -80px;
+  font-family: 'Oswald', sans-serif;
 }
 
 footer {
   text-align: center;
   margin-top: 100px;
   color: grey;
+  font-size: 12px;
 }
