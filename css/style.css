@@ -73,8 +73,10 @@ ul {
 }
 #main {
   margin-top: 10px;
-  border-top: 4px dotted grey;
-  border-bottom: 4px dotted grey;
+  border-image: url(../img/border-img.png);
+  /*border-right: none;
+  border-left: none;*/
+
 }
 #main p {
   text-indent: 25px;
@@ -107,4 +109,35 @@ button {
   background-color: #9f5050;
   color: white;
   padding: 10px 20px 10px 20px;
+}
+
+#vanessaimg {
+  position: absolute;
+  margin-top: -90px;
+}
+
+#vanessatext {
+  width: 550px;
+  align-self: center;
+  margin-left: 100px;
+}
+#vanessatext h1 {
+  font-size: 16px;
+}
+
+#vanessatext p {
+  font-size: 14px;
+}
+
+#buttonbox {
+  margin-left: 700px;
+  width: 200px;
+  align-self: center;
+  margin-top: -80px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 100px;
+  color: grey;
 }
